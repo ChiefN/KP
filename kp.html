@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Lorem Ipsum">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="kp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="media/favIcon.png">
+    <title>Lorem | Ipsum</title>
+</head>
+<body>
+    <header>
+        <section id="fixed">
+            <div id="header-social-bar">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x faLogo" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x instLogo" aria-hidden="true"></i></a>
+            </div>
+            <a href="#contact-section"><div id="header-contact-button">Kontakta oss</div></a>
+        </section>
+        <nav>
+            <a href="#AboutH2">Om EM</a>
+            <a href="#collage-section">Projekt</a>
+            <a href="#services-section">Tjänster</a>
+            <a href="#contact-section">Kontakt</a>
+        </nav>
+        <figure id="img-cover-container">
+            <img src="media/cover.png" alt="">
+        </figure>
+    </header>
+    <main>
+
+        <div id="mobile-nav">
+            <p>Meny</p>
+            <div>
+                <a href="#AboutH2">Om EM</a>
+                <a href="#collage-section">Projekt</a>
+                <a href="#services-section">Tjänster</a>
+                <a href="#contact-section">Kontakt</a>
+            </div>
+        </div>
+
+        <section id="collage-section">
+            <div class="collage-column">
+                <h2 class="swipeIn">Projekt</h2>
+                <figure><img src="media/collage/1.jpg" alt="">
+                    <figcaption>Tegelvägg & stora fönster för härlig sommarkänsla.<br> Storgatan Hovmantorp</figcaption></figure>
+                <figure><img src="media/collage/2.jpg" alt="">
+                    <figcaption>Köksö för mer bänkyta.<br> Järnvägsgatan Växjö</figcaption></figure>
+            </div>
+            <div class="collage-column">
+                <figure><img src="media/collage/3.jpg" alt="">
+                    <figcaption>Exotisk spakänsla hemma.<br> Sjötorp Åryd</figcaption></figure>
+                <figure><img src="media/collage/5.jpg" alt="">
+                    <figcaption>Stilrent, ljust badrum.<br> Smedjevägen Växjö</figcaption></figure>
+            </div>
+            <div class="collage-column">
+                <figure><img src="media/collage/6.jpg" alt="">
+                    <figcaption>Nytt & hållbart med retrokänsla.<br> Storgatan Hovmantorp</figcaption></figure>
+                <figure><img src="media/collage/4.jpg" alt="">
+                    <figcaption>Förvaring och design i ett.<br> Järnvägsgatan Växjö</figcaption></figure>
+            </div>
+        </section>
+
+        <section id="services-section">
+            <h2 class="swipeIn">Tjänster</h2>
+            <div>
+                <article>
+                    <h3>Terasser, Altaner & Friggebodar</h3>
+                    <p>Är platsen slut inomhus? Med välplanerad utemiljö får förlänger du sommaren.</p>
+                    <a href="#contact-section"><div class="btn">Kontakt</div></a>
+                </article>
+                <article>
+                    <h3>Köksrenoveringar</h3>
+                    <p>Köket är hemmets hjärta. Därför är det så viktigt att det är anpassat efter er.</p>
+                    <a href="#contact-section"><div class="btn">Kontakt</div></a>
+                </article>
+                <article>
+                    <h3>Golv & Vägg</h3>
+                    <p>Nytt golv, färg eller tapet. Ibland räcker det lilla för att det ska kännas nytt.</p>
+                    <a href="#contact-section"><div class="btn">Kontakt</div></a>
+                </article>
+                <article>
+                    <h3>Platsbyggda möbler</h3>
+                    <p>Ikea i all ära, men hade det inte varit skönt med möbler som passar in?</p>
+                    <a href="#contact-section"><div class="btn">Kontakt</div></a>
+                </article>
+                <article>
+                    <h3>Övrigt</h3>
+                    <p>Nya fönster & dörrar, en lekstuga, ett utegym? Hör av dig, så ser vi vad vi kan lösa.</p>
+                    <a href="#contact-section"><div class="btn">Kontakt</div></a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <h2 id="ContactH2" class="swipeIn">Kontakt</h2>
+            <h2 id="AboutH2" class="swipeIn">Om oss</h2>
+            <form id="form">
+                <input type="hidden" name="_subject" value="Nytt meddelande från LoremSida">
+                <div id="nameDiv">
+                    <label style="font-weight: bold;" for="name">Namn:</label>
+                    <input type="text" id="name" name="name" style="width: 100%;">
+                </div>
+                <div id="mailDiv">
+                    <label style="font-weight: bold;" for="mailinfo">Mail:</label>
+                    <input type="email" id="mailinfo" name="mailinfo" style="width: 100%;">
+                </div>
+                <div id="phoneDiv">
+                    <label style="font-weight: bold;" for="phoneinfo">Telefon:</label>
+                    <input type="tel" id="phoneinfo" name="phoneinfo" style="width: 100%;" pattern="[0-9]+">
+                </div>
+                <div id="descDiv">
+                    <label style="font-weight: bold;" style="font-weight: bold;" for="desc">Meddelande:</label>
+                    <textarea rows="5" id="desc" style="width: 100%;" name="desc" required placeholder="Formuläret är ej kopplat"></textarea>
+                </div>
+                <div id="submitDiv">
+                    <input type="submit" style="width: 100%;" value="Skicka">
+                </div>
+                <figure>
+                    <img src="media/form.jpg" alt="" width="200px">
+                </figure>
+                <div id="formOverlay"></div>
+            </form>
+
+            <article id="contactinfo">
+                <p>Vi är det lilla företaget med det stora engagemanget.<br><br> Vi strävar efter 100% kundnöjdhet där enkelhet och god kommunikation
+                    värderas högt för att du ska få det precis så som du vill ha det.
+                    Inget arbete är för stort eller litet. Lite småfix här & där, nybyggnation eller en totalrenovering?
+                    Oavsett så har vi verktygen och kontakterna för att leda bygget från start till klart!<br><br>                   
+                    Varmt välkomna att kontakta oss för att få hjälp med ditt byggprojekt.</p>
+                <h3>John Doe</h3>
+                <h4>012-345 67 89</h4>
+                <h5>JohnTheBuilder@gmail.com</h5>
+            </article>
+        </section>
+    </main>
+
+    <footer style="max-height: 200px;">
+        <figure><img src="media/favIcon.png" alt="KPFooter"></figure>
+        <article>
+            <h3>John Doe</h3>
+            <h4>Staden</h4>
+            <h4>012-345 67 89</h4>
+            <h5>JohnTheBuilder@gmail.com</h5>
+            <i>Website by <a href="#">ChiefnDigital</a> &copy;2022</i>
+            </article>
+    </footer>
+
+    <script src="kp.js"></script>
+</body>
+</html>
