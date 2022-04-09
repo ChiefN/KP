@@ -144,6 +144,9 @@ header nav a:hover{
         margin: 1rem;
         padding: 0.2rem 0.5rem;
     }
+    #img-cover-container{
+        margin-top: 1.5rem;
+    }
 }
 /*#endregion*/
 
