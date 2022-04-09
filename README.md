@@ -9,3 +9,5 @@ Statisk hemsida. Projektet startade som en prototyp och syftet var att på korta
 
 Akuta förbättrningsområden: 
 Elementens namngivning och i samband med det CSS:en. På flertalet ställen targetade jag elementen genom att gräva mig ner i trädet istället för att ge elementen IDs/klasser.
+
+Livepreview: https://chiefn.digital/KP/kp.html
